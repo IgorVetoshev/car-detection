@@ -97,21 +97,10 @@ def send_text(message):
         
         pred_car = model_car.predict(x)
         
-        if pred_car[0][0] <=.5:
-            
-            bot.send_message(message.chat.id, "Yes, I'm pretty sure it's a car on the image.") 
-            
-            pred_total = model_total.predict(x)
-
-            if pred_total[0][0] <=.95:
-                bot.send_message(message.chat.id, "Sorry, but your car cannot be insured. Please try another one.") 
-
-            else:
-                bot.send_message(message.chat.id, "Success! Your car is not damaged.")
-                
-        else:
-            
-            bot.send_message(message.chat.id, "It's not a car. Please use just photos with cars.")    
+        #some_replies from ML bot
+        ## ....
+        ### ....
+        #### ....
 
 
 # Remove webhook, it fails sometimes the set if there is a previous webhook
