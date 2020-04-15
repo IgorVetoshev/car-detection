@@ -14,8 +14,7 @@ Here, the first part of the project (the estimation whether it's a car or not on
 
 **Files**
 
-Jupyter notebook
-app_webhook.py
+Jupyter notebook.ipynb + app_webhook.py
 
 **Stack**
 
