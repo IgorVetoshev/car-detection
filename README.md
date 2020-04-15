@@ -10,7 +10,7 @@ Generally, insurance agents do it. The ML algorithm can help them in estimation 
 
 The project is not finished and still on research phase (many parts are omitted on purpose).
 
-Here, the first part of the project (the estimation whether it's a car or not on a photo).
+Here, the first part of the project (the estimation of whether it's a car or not on a photo).
 
 **Files**
 
